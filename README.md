@@ -1,8 +1,6 @@
 # python-restaurant-recommendation
 
-Have you ever found yourself craving a particular type of cuisine but had no idea where to go? Look no further! With this Python program, you can easily search for restaurants that serve your desired cuisine.
-
-The program utilizes a restaurant data module, which presumably contains a list of restaurants with details such as the type of cuisine, name, price range, rating, and address. The first function, search_types, takes an input type and searches through the types of cuisine in the types list. The match function is used to compare the input substring to each string in the types list. If a match is found, the food type is added to a recommendationList. The function then returns the recommendationList containing all matching food types.
+The python program utilizes a restaurant data module, which contains a list of restaurants with details such as the type of cuisine, name, price range, rating, and address. The first function, search_types, takes an input type and searches through the types of cuisine in the types list. The match function is used to compare the input substring to each string in the types list. If a match is found, the food type is added to a recommendationList. The function then returns the recommendationList containing all matching food types.
 
 The search_restaurant function takes a food type as input and searches through the restaurant_data list for restaurants that serve that cuisine. It then returns a restaurantList containing all matching restaurants.
 
